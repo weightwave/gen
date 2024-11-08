@@ -1,4 +1,4 @@
-module gorm.io/gen
+module github.com/weightwave/gen
 
 go 1.18
 

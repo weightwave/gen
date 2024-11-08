@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"gorm.io/gen"
-	"gorm.io/gen/field"
+	"github.com/weightwave/gen"
+	"github.com/weightwave/gen/field"
 
-	"gorm.io/gen/tests/diy_method"
+	"github.com/weightwave/gen/tests/diy_method"
 )
 
 const (

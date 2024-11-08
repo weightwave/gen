@@ -12,9 +12,9 @@ var (
 		"gorm.io/gorm/schema",
 		"gorm.io/gorm/clause",
 		"",
-		"gorm.io/gen",
-		"gorm.io/gen/field",
-		"gorm.io/gen/helper",
+		"github.com/weightwave/gen",
+		"github.com/weightwave/gen/field",
+		"github.com/weightwave/gen/helper",
 		"",
 		"gorm.io/plugin/dbresolver",
 	)

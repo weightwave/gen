@@ -1,8 +1,8 @@
 package main
 
 import (
-	"gorm.io/gen"
-	"gorm.io/gen/helper"
+	"github.com/weightwave/gen"
+	"github.com/weightwave/gen/helper"
 )
 
 var detail, data helper.Object

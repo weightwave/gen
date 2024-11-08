@@ -1,10 +1,10 @@
 package main
 
 import (
-	"gorm.io/gen"
-	"gorm.io/gen/examples/conf"
-	"gorm.io/gen/examples/dal"
-	"gorm.io/gen/examples/dal/model"
+	"github.com/weightwave/gen"
+	"github.com/weightwave/gen/examples/conf"
+	"github.com/weightwave/gen/examples/dal"
+	"github.com/weightwave/gen/examples/dal/model"
 	"gorm.io/gorm"
 )
 

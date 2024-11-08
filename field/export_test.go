@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"gorm.io/gen/field"
+	"github.com/weightwave/gen/field"
 )
 
 var _ field.ScanValuer = new(password)

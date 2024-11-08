@@ -1,8 +1,8 @@
 package main
 
 import (
-	"gorm.io/gen"
-	"gorm.io/gen/examples/dal/model"
+	"github.com/weightwave/gen"
+	"github.com/weightwave/gen/examples/dal/model"
 )
 
 func main() {

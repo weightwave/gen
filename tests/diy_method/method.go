@@ -3,7 +3,7 @@ package diy_method
 import (
 	"time"
 
-	"gorm.io/gen"
+	"github.com/weightwave/gen"
 )
 
 type InsertMethod interface {

@@ -10,10 +10,10 @@ import (
 	"gorm.io/gorm/schema"
 	"gorm.io/gorm/utils/tests"
 
-	"gorm.io/gen/field"
-	"gorm.io/gen/helper"
-	"gorm.io/gen/internal/model"
-	"gorm.io/gen/internal/parser"
+	"github.com/weightwave/gen/field"
+	"github.com/weightwave/gen/helper"
+	"github.com/weightwave/gen/internal/model"
+	"github.com/weightwave/gen/internal/parser"
 )
 
 // GetQueryStructMeta generate db model by table name
@@ -26,6 +26,9 @@ func GetQueryStructMeta(db *gorm.DB, conf *model.Config) (*QueryStructMeta, erro
 	tableName, structName, fileName := conf.GetNames()
 	if tableName == "" {
 		return nil, nil
+	}
+	if strings.Contains(structName, ".") {
+		structName = strings.Split(structName, ".")[1]
 	}
 	if err := checkStructName(structName); err != nil {
 		return nil, fmt.Errorf("model name %q is invalid: %w", structName, err)
