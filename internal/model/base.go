@@ -9,7 +9,7 @@ import (
 
 const (
 	// DefaultModelPkg ...
-	DefaultModelPkg = "model"
+	DefaultModelPkg = "./biz/dal/models"
 )
 
 // Status sql status
