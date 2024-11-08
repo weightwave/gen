@@ -110,7 +110,7 @@ func (g *Generator) GenerateModel(tableName string, opts ...ModelOpt) *generate.
 	if strings.Contains(schemaName, ".") {
 		schemaName = strings.Split(schemaName, ".")[1]
 	}
-	return g.GenerateModelAs(tableName, g.db.Config.NamingStrategy.SchemaName(tableName), opts...)
+	return g.GenerateModelAs(tableName, g.db.Config.NamingStrategy.SchemaName(se), opts...)
 }
 
 // GenerateModelAs catch table info from db, return a BaseStruct

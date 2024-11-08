@@ -27,9 +27,7 @@ func GetQueryStructMeta(db *gorm.DB, conf *model.Config) (*QueryStructMeta, erro
 	if tableName == "" {
 		return nil, nil
 	}
-	if strings.Contains(structName, ".") {
-		structName = strings.Split(structName, ".")[1]
-	}
+
 	if err := checkStructName(structName); err != nil {
 		return nil, fmt.Errorf("model name %q is invalid: %w", structName, err)
 	}
