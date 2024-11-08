@@ -1807,8 +1807,8 @@ github.com/vishvananda/netns v0.0.0-20180720170159-13995c7128cc/go.mod h1:ZjcWmF
 github.com/vishvananda/netns v0.0.0-20191106174202-0a2b9b5464df/go.mod h1:JP3t17pCcGlemwknint6hfoeCVQrEMVwxRLRjXpq+BU=
 github.com/vishvananda/netns v0.0.0-20200728191858-db3c7e526aae/go.mod h1:DD4vA1DwXk04H54A1oHXtwZmA0grkVMdPxx/VGLCah0=
 github.com/vishvananda/netns v0.0.0-20210104183010-2eb08e3e575f/go.mod h1:DD4vA1DwXk04H54A1oHXtwZmA0grkVMdPxx/VGLCah0=
-github.com/weightwave/gen v0.0.0-20241108150850-ae74efe4d41c h1:65tESeeKnV1Wf46tCoo+F6cLqFo/Ysc/5oa9q1dWYm4=
-github.com/weightwave/gen v0.0.0-20241108150850-ae74efe4d41c/go.mod h1:ob3E9Gb2/e4MLHZc3Jqo4nUbIuK3iF1EebJgksp37fQ=
+github.com/weightwave/gen v0.0.0-20241108153426-8b925ad763e0 h1:f/pJaubskU/05wT04ulf9p/mxpCs1gc7NXPwm4OwXy0=
+github.com/weightwave/gen v0.0.0-20241108153426-8b925ad763e0/go.mod h1:ob3E9Gb2/e4MLHZc3Jqo4nUbIuK3iF1EebJgksp37fQ=
 github.com/willf/bitset v1.1.11-0.20200630133818-d5bec3311243/go.mod h1:RjeCKbqT1RxIR/KWY6phxZiaY1IyutSBfGjNPySAYV4=
 github.com/willf/bitset v1.1.11/go.mod h1:83CECat5yLh5zVOf4P1ErAgKA5UDvKtgyUABdr3+MjI=
 github.com/x448/float16 v0.8.4/go.mod h1:14CWIYCyZA/cWjXOioeEpHeN/83MdbZDRQHoFcYsOfg=

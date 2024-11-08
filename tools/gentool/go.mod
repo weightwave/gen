@@ -3,7 +3,7 @@ module github.com/weightwave/gen/tools/gentool
 go 1.19
 
 require (
-	github.com/weightwave/gen v0.0.0
+	github.com/weightwave/gen v0.0.0-20241108153426-8b925ad763e0
 	gopkg.in/yaml.v3 v3.0.1
 	gorm.io/driver/clickhouse v0.6.0
 	gorm.io/driver/mysql v1.5.6
