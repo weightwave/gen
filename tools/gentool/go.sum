@@ -1865,6 +1865,8 @@ github.com/weightwave/gen v0.0.0-20241108153426-8b925ad763e0 h1:f/pJaubskU/05wT0
 github.com/weightwave/gen v0.0.0-20241108153426-8b925ad763e0/go.mod h1:ob3E9Gb2/e4MLHZc3Jqo4nUbIuK3iF1EebJgksp37fQ=
 github.com/weightwave/gen v0.0.0-20241108153453-add0e63ebe42 h1:2mza+hdWaDIW0bitd4D7oGrYTBdNYrZRQbsGuCYT7zs=
 github.com/weightwave/gen v0.0.0-20241108153453-add0e63ebe42/go.mod h1:ob3E9Gb2/e4MLHZc3Jqo4nUbIuK3iF1EebJgksp37fQ=
+github.com/weightwave/gen v0.0.0-20241108154119-de7a5a93b858 h1:tXmg12FhYbrHw0Cfgq69DMgcHxp6lYAoS9ig2qtNKmQ=
+github.com/weightwave/gen v0.0.0-20241108154119-de7a5a93b858/go.mod h1:ob3E9Gb2/e4MLHZc3Jqo4nUbIuK3iF1EebJgksp37fQ=
 github.com/willf/bitset v1.1.11-0.20200630133818-d5bec3311243/go.mod h1:RjeCKbqT1RxIR/KWY6phxZiaY1IyutSBfGjNPySAYV4=
 github.com/willf/bitset v1.1.11/go.mod h1:83CECat5yLh5zVOf4P1ErAgKA5UDvKtgyUABdr3+MjI=
 github.com/x448/float16 v0.8.4/go.mod h1:14CWIYCyZA/cWjXOioeEpHeN/83MdbZDRQHoFcYsOfg=

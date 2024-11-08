@@ -5,7 +5,7 @@ go 1.22.0
 toolchain go1.23.2
 
 require (
-	github.com/weightwave/gen v0.0.0-20241108153453-add0e63ebe42
+	github.com/weightwave/gen v0.0.0-20241108154119-de7a5a93b858
 	gopkg.in/yaml.v3 v3.0.1
 	gorm.io/driver/clickhouse v0.6.1
 	gorm.io/driver/mysql v1.5.7
